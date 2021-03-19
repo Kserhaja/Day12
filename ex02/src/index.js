@@ -6,9 +6,9 @@ function myCounter(n) {
     return arr;
 
     } else {
-    const countArray = myCounter(n - 1);
-    countArray.push(n)
-    return countArray;
+    const arr = myCounter(n - 1);
+    arr.unshift(n);
+    return arr;
     // Only change code above this line
     }
 
