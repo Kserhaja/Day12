@@ -1,5 +1,5 @@
 function myCounter(n) {
-    var arr = []
+    var arr = [];
     // Only change code below this line
 
     if (n < 1) {
